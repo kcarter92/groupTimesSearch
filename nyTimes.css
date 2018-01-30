@@ -1,0 +1,35 @@
+body
+{
+	font-family: 'Abril Fatface', cursive; 
+	background: #CDB380;
+}
+
+.jumbotron
+{
+	background: #031634;
+	color: #E8DDCB;
+	margin: 0 20%;
+	border: 8px solid #036564;
+	overflow-x: overlay;
+}
+.container
+{
+	border: 8px solid #036564;
+	margin: 0 20%;
+	background: #E8DDCB;
+	color: #031634;
+	border-radius: .3rem;
+}
+
+.art 
+{
+	margin: 5px;
+}
+
+input[type=text]
+{
+	width: 50%;
+	display: inline-block;
+	border: 0.5px solid #036564;
+	border-radius: 3px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+
+
+<!--_______________________BOOTSTRAP________________________-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Saira+Condensed:700" rel="stylesheet">
+<!--_______________________FONT______________________________-->	
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<!--_______________________CSS______________________________-->
+	<link rel="stylesheet" type="text/css" href="nyTimes.css">
+</head>
+<body>
+	<header class="jumbotron">
+		<h1>New York Time Search</h1>
+	</header>
+	<br>
+	<div class="container">
+		<div class="search">
+			<div class="header">
+				<h2>Search Parameters</h2>
+			</div>
+			<hr>
+			<form class="searchForm">
+				<label for="term-input">Search Term: </label>
+				<br>
+				<input type="text" id="term-input">
+				<br>
+				<label for="record-input">Number of Records to Receive: </label>
+				<br>
+				<input type="text" id="record-input">
+				<br>
+				<label for="startYear-input">Start Year (Optional): </label>
+				<br>
+				<input type="text" id="startYear-input">
+				<br>
+				<label for="endYear-input">End Year (Optional): </label>
+				<br>
+				<input type="text" id="endYear-input">	
+				<br>
+				<br>
+				<input type="submit" id="search" value="Search">
+				<input type="submit" id="clear" value="Clear Results">
+			</form>
+			<br>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="header">
+		<h2>Top Articles</h2>
+		</div>
+		<hr>
+		<div id="articles"></div>
+	</div>
+	
+
+
+<!--______________________BOOTSTRAP CDN JS__________________-->
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<!--_______________________jQuery___________________________-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--_______________________javaScript_______________________-->
+	<script type="text/javascript" src="nyTimes.js"></script>
+</body>
+</html>
